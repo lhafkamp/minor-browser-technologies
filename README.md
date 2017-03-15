@@ -72,6 +72,8 @@ Doesn't really look like a menu icon anymore
 <br>
 <img src="images/info.png">
 <br>
+<br>
+<br>
 <img src="images/infogarbage.png">
 
 #### How can you fix this?
