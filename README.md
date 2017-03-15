@@ -19,12 +19,14 @@ On http://www.greenpeace.nl/:
 <br>
 <img src="images/gp.png">
 <br>
+<br>
 <img src="images/gpcb.png">
 <br>
 Here you can see that the 'Akkoord' button suddenly becomes less visible.
 
 <br>
 On http://www.kerststadvalkenburg.nl/en/activities-christmas-town-valkenburg/:
+<br>
 <br>
 <img src="images/kerst.png">
 <br>
@@ -63,6 +65,7 @@ In my own site I used custom fonts:
 As you can see it looks like garbage once you remove custom fonts.
 
 On http://fontastic.me/
+<br>
 <br>
 <img src="images/menu.png">
 <br>
