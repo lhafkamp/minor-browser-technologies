@@ -15,19 +15,30 @@ Its important to keep these color ratio's in mind because according to
 The application 'Sim Daltonism' boots a window that simulates different forms of color blindness.
 
 #### Where does this go wrong?
-On http://www.greenpeace.nl/:
+On http://www.greenpeace.nl/: 
+<br>
 <img src="images/gp.png">
+<br>
 <img src="images/gpcb.png">
+<br>
 Here you can see that the 'Akkoord' button suddenly becomes less visible.
 
+<br>
 On http://www.kerststadvalkenburg.nl/en/activities-christmas-town-valkenburg/:
+<br>
 <img src="images/kerst.png">
+<br>
 <img src="images/kerstcb.png">
+<br>
 The active button isn't very clear
 
+<br>
 On http://www.lospilones.com/nl/:
+<br>
 <img src="images/nl.png">
+<br>
 <img src="images/nlcb.png">
+<br>
 You can't tell if NL is the one that is active
 
 #### How can you fix this?
@@ -48,13 +59,19 @@ In Firefox:
 In my own site I used custom fonts:
 <img src="images/luuk.png">
 <img src="images/luukgarbage.png">
+<br>
 As you can see it looks like garbage once you remove custom fonts.
 
 On http://fontastic.me/
+<br>
 <img src="images/menu.png">
+<br>
 <img src="images/menugarbage.png">
+<br>
 Doesn't really look like a menu icon anymore
+<br>
 <img src="images/info.png">
+<br>
 <img src="images/infogarbage.png">
 
 #### How can you fix this?
