@@ -67,6 +67,9 @@ Didn't use
 #### 8. Mouse/Trackpad 
 Everything works fine until you actually get the results. In order to fix this I simply have to put focus states on the <div>'s that I'm rendering from my Javascript.
 
+### (bonus) Screenreader
+I tried out the screenreader for my application and since its a simple app there weren't much problems until I arrived at the rendered content. The rendered content doesn't have a 'zoom' page or anything so it doesn't have any tag to emphasize on. The simple solution to this would be actually making it usable in any form.
+
 ## assignment 1.1
 
 ### feature: colors
