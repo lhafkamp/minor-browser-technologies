@@ -10,6 +10,15 @@ My app is really fast since all my images are SVG's:
 <br>
 <img src="images/funda/speed.png">
 <br>
+However some old browsers don't support using SVG's. Here I tried loading the website using IE8 on Windows 7 and you can see that the SVG doesn't load.
+<br>
+<img src="images/funda/windows.png">
+<br>
+ A solution for this problem is to use the <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Tech/XUL/Attribute/onerror">onerror event</a>. With this you can set an alternative image for when the first image doesn't load properly.
+
+On <a href="funda.nl">funda.nl</a> you can see how they implemented the onerror event:
+<br>
+<img src="images/funda/funda.png">
 
 #### 2. Custom fonts
 Didn't use
@@ -30,6 +39,8 @@ On the iPhone 4 it doesn't even start loading. This is because I am using <a hre
 
 <b>How do I solve this?</b>
 In order for fetch to work on a mobile phone I eather have to manually do a xhttp request without fetch or I have to use a polyfill called <a href="https://github.com/github/fetch">window.fetch</a>.
+
+Another problem is that I'm using template literals to render HTML with Javascript. This should be rendered server side instead of in the client.
 
 
 #### 4. Colors
