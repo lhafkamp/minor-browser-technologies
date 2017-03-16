@@ -11,6 +11,8 @@ Website colors can be all fun and dandy for someone who has optimal vision. Howe
 Its important to keep these color ratio's in mind because according to
 <a href="http://www.colourblindawareness.org/colour-blindness/">http://www.colourblindawareness.org/colour-blindness/</a> 1 in 12 men have some form of color blindness. This is a huge part of your userbase that you don't want to lose.
 
+Its also important to keep hover/focus states in mind. A user expects a hover/focus to look different enough for them to understand what is going on. The user could think the site is broken and leave.
+
 #### How can you test this?
 The application 'Sim Daltonism' boots a window that simulates different forms of color blindness.
 
@@ -47,9 +49,13 @@ You can't tell if NL is the one that is active
 Make sure colors have the right contract ratio. A great way to test the color ratio is on <a href="http://leaverou.github.io/contrast-ratio/">http://leaverou.github.io/contrast-ratio/</a>.
 
 
-### feature: custom-fonts
+### feature: custom fonts
 #### Problems:
-The custom-font doesn't load, this can be problematic if you use something like icon-fonst which need a key placeholder. You can suddenly have a 'k' or '2' next to your form, this could confuse or missguide the user.
+The custom font doesn't load, this can be problematic if you use something like icon-fonst which need a key placeholder. You can suddenly have a 'k' or '2' next to your form, this could confuse or missguide the user.
+
+I also found a problem on <a href="http://stackoverflow.com/questions/15993682/custom-font-rendering-problems">http://stackoverflow.com/questions/15993682/custom-font-rendering-problems</a> that states that certain types of custom fonts will break once you set font-weight. This problem occurs in IE and Firefox.
+
+On the site <a href="https://www.filamentgroup.com/lab/font-loading.html">https://www.filamentgroup.com/lab/font-loading.html</a> they mention that using cookies is the way to go if you want to set a custom fonts in order to create a fallback. From personal experience I think Font Face Observer is the correct way to go.
 
 #### How can you test this?
 In Firefox: 
