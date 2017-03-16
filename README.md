@@ -5,14 +5,16 @@ Assignments for the course Browser Technologies
 ## assignment 1.2 (fork je funda)
 Link to my Funda app: <a href="https://github.com/lhafkamp/minor-funda">https://github.com/lhafkamp/minor-funda</a>
 
-#1. Images
+####1. Images
 My app is really fast since all my images are SVG's:
+<br>
 <img src="images/funda/speed.png">
+<br>
 
-#2. Custom fonts
+####2. Custom fonts
 Didn't use
 
-#3. Javascript
+####3. Javascript
 I tested my app on an iPhone 4 and a tablet which gave the following results:
 
 <img src="images/funda/0.jpg">
@@ -30,26 +32,28 @@ On the iPhone 4 it doesn't even start loading. This is because I am using <a hre
 In order for fetch to work on a mobile phone I eather have to manually do a xhttp request without fetch or I have to use a polyfill called <a href="https://github.com/github/fetch">window.fetch</a>.
 
 
-#4. Colors
+####4. Colors
+<br>
 <img src="images/funda/cb.png">
+<br>
 <br>
 <img src="images/funda/cb2.png">
 
 There is plenty of contrast when it comes to hover/focus states. There are also no conflicts when I'm using Sim Daltonism to check if my site is accessible for the color blind.
 
-#5. Broadband internet
+####5. Broadband internet
 If I use my app on 2G I get the following notice:
 <img src="images/funda/font.png">
 <br>
 This is not necessarily a bad thing. In order to gain more control over this I could use <a href="fontfaceobserver.com">font face observer</a> to create my own fallback fonts when the first font cant't load properly.
 
-#6. Cookies
+####6. Cookies
 Didn't use
 
-#7. localStorage
+####7. localStorage
 Didn't use
 
-#8. Mouse/Trackpad 
+####8. Mouse/Trackpad 
 Everything works fine until you actually get the results. In order to fix this I simply have to put focus states on the <div>'s that I'm rendering from my Javascript.
 
 ## assignment 1.1
