@@ -10,3 +10,10 @@ https://github.com/alvarotrigo/fullPage.js/issues/854
 
 ## tested in
 - chrome
+
+# 3. svg fallback
+http://caniuse.com/#search=svg
+https://css-tricks.com/svg-fallbacks/
+
+## tested in
+- chrome
