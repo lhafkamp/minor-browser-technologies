@@ -25,3 +25,13 @@ http://stackoverflow.com/questions/22834379/css3-ms-max-content-in-ie11
 ## tested in
 - chrome
 
+# 5. css3colors
+http://html5please.com/
+http://caniuse.com/#search=CSS3%20Colors
+https://github.com/CSSLint/csslint/wiki/Require-fallback-colors
+
+## tested in
+- chrome
+
+
+
