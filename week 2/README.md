@@ -6,15 +6,15 @@
 http://caniuse.com/#search=flex
 https://davidwalsh.name/css-supports
 #### tested in:
-<img src="images/chrome/flex.png">  
+![](images/chrome/flex.png | width=100)
 Chrome  
 <br>
 
-<img src="images/IE8/flex.png">  
+<img src="images/IE8/flex.png" width="200">  
 IE8  
 <br>
 
-<img src="images/mobile/flex.jpg">  
+<img src="images/mobile/flex.jpg" width="200">  
 Windows phone (device lab)  
 <br>
 
