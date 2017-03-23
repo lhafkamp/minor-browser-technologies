@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<style>
+	li {
+		padding: 2em;
+		display: inline-block;
+		background: #BADA55;
+	}
+	
+	@supports (display: -webkit-flex) or (display: -moz-flex) or (display: flex) {
+		ul {
+			display: flex;
+			flex-wrap: wrap;
+			-webkit-flex-wrap: wrap;
+			-moz-flex-wrap: wrap;
+		}
+
+		li {
+			display: block;
+		}
+	}
+</style>
+
+<ul>
+	<li>item1</li>
+	<li>item2</li>
+	<li>item3</li>
+	<li>item4</li>
+	<li>item5</li>
+</ul>
+
+<script>
+
+</script>	
+</body>
+</html>
