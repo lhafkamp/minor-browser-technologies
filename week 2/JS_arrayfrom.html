@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<style>
+
+</style>
+
+<ul>
+	<li>item1</li>
+	<li>item2</li>
+	<li>item3</li>
+	<li>item4</li>
+	<li>item5</li>
+</ul>
+
+<script>
+var nodelist = document.querySelectorAll('ul li'); // NodeList
+var array = Array.from(document.querySelectorAll('ul li')); // Array (converted with ES6)
+
+var newArray = []; // Array (converted without ES6)
+for (var i = 0, newLength = newArray.length = nodelist.length; i < newLength; i++) {
+	newArray[i] = nodelist[i];
+}
+
+</script>	
+</body>
+</html>
