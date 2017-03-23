@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<style>
+	a {
+		font-size: 3em;
+	}
+
+	footer {
+		margin-top: 200em;
+	}
+</style>
+
+<a href="#footer">To the footer</a>
+<footer id="footer">This is the footer</footer>
+
+<script>
+
+var aScroll = document.getElementsByTagName('a');
+
+// code for smooth scrolling taken from https://stackoverflow.com/questions/10063380/javascript-smooth-scroll-without-the-use-of-jquery
+
+function scroll(toElement, speed) {
+	var pointer = toElement.getAttribute('href').slice(1);
+	var elem = document.getElementById(pointer);
+	var elemOffset = elem.offsetTop;
+
+	var counter = setInterval(function() {
+	   window.pageYOffset;
+
+	   if (window.pageYOffset < elemOffset) { 
+	       window.scrollTo(0, window.pageYOffset);
+	       window.pageYOffset += speed;
+	   }
+	});
+}
+
+for (i = 0; i < aScroll.length; i++) {
+   aScroll[i].addEventListener('pointerdown', function(e) {
+       scroll(this, 30);
+   });
+}
+
+</script>		
+
+</body>
+</html>

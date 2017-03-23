@@ -38,7 +38,20 @@ http://caniuse.com/#search=details
 https://html.spec.whatwg.org/multipage/forms.html#the-details-element
 
 ## tested in
+- chrome
 
+# 7. Array.from
+http://kangax.github.io/compat-table/es6/#test-Array.from
+http://stackoverflow.com/questions/3199588/fastest-way-to-convert-javascript-nodelist-to-array
+
+## tested in
+- chrome
+
+# 8. Smooth scrolling
+https://stackoverflow.com/questions/10063380/javascript-smooth-scroll-without-the-use-of-jquery
+
+## tested in
+- chrome
 
 
 
