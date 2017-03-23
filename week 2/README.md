@@ -8,15 +8,15 @@ https://davidwalsh.name/css-supports
 #### tested in:
 <img src="images/chrome/flex.png">  
 Chrome  
-  
+<br>
 
 <img src="images/IE8/flex.png">  
 IE8  
-  
+<br>
 
 <img src="images/mobile/flex.jpg">  
 Windows phone (device lab)  
-  
+<br>
 
 ## 2. viewport units (CSS)
 
@@ -27,15 +27,16 @@ https://github.com/alvarotrigo/fullPage.js/issues/854
 #### tested in:
 <img src="images/chrome/vw.png">  
 Chrome    
-  
+<br>
 
 <img src="images/IE8/vpunits.png">  
 IE8    
-  
+<br>
 
 <img src="images/mobile/vw.jpg">  
 Windows phone (device lab)    
-  
+<br>
+
 
 ## 3. svg (HTML)
 
@@ -46,15 +47,17 @@ https://css-tricks.com/svg-fallbacks/
 #### tested in:
 <img src="images/chrome/svg.png">  
 Chrome  
-  
+<br>
 
 <img src="images/IE8/svg.png">  
 IE8  
-  
+<br>
+
 
 <img src="images/mobile/svg.jpg">  
 Windows phone (device lab)  
-  
+<br>
+
 
 ## 4. intrinsic sizing (CSS)
 
@@ -65,14 +68,17 @@ http://stackoverflow.com/questions/22834379/css3-ms-max-content-in-ie11
 #### tested in:
 <img src="images/chrome/mincontent.png">  
 Chrome  
+<br>
   
 
 <img src="images/IE8/mincontent.png">  
 IE8  
+<br>
   
 
 <img src="images/mobile/intrin.jpg">  
 Windows phone (device lab)  
+<br>
   
 
 ## 5. css3colors (CSS)
@@ -85,15 +91,15 @@ https://github.com/CSSLint/csslint/wiki/Require-fallback-colors
 #### tested in:
 <img src="images/chrome/hotpink.png">  
 Chrome  
-  
+<br>
 
 <img src="images/IE8/hotpink.png">  
 IE8  
-  
+<br>
 
 <img src="images/mobile/pink.jpg">  
 Windows phone (device lab)  
-  
+<br>
 
 ## 6. details (HTML)
 
@@ -104,15 +110,15 @@ https://html.spec.whatwg.org/multipage/forms.html#the-details-element
 #### tested in:
 <img src="images/chrome/summary.png">  
 Chrome  
-  
+<br>
 
 <img src="images/IE8/summary.png">  
 IE8  
-  
+<br>
 
 <img src="images/mobile/summary.jpg">  
 Windows phone (device lab)  
-  
+<br>
 
 
 ## 7. Array.from (JS)
@@ -124,7 +130,7 @@ http://stackoverflow.com/questions/3199588/fastest-way-to-convert-javascript-nod
 #### tested in:
 <img src="images/chrome/array.png">  
 Chrome (console)  
-  
+<br>
 
 ## 8. Smooth scrolling (JS)
 
@@ -134,15 +140,15 @@ https://stackoverflow.com/questions/10063380/javascript-smooth-scroll-without-th
 #### tested in:
 <img src="images/chrome/">  
 Chrome  
-  
+<br>
 
 <img src="images/IE8/smooth.png">  
 IE8  
-  
+<br>
 
 <img src="images/mobile/smooth.jpg">  
 Windows phone (device lab)  
-  
+<br>
 
 
 
