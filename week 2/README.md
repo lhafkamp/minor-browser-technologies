@@ -26,15 +26,15 @@ https://github.com/alvarotrigo/fullPage.js/issues/854
 
 #### tested in:
 <img src="images/chrome/vw.png">  
-Chrome  
+Chrome    
   
 
 <img src="images/IE8/vpunits.png">  
-IE8  
+IE8    
   
 
 <img src="images/mobile/vw.jpg">  
-Windows phone (device lab)  
+Windows phone (device lab)    
   
 
 ## 3. svg (HTML)
@@ -143,6 +143,6 @@ IE8
 <img src="images/mobile/smooth.jpg">  
 Windows phone (device lab)  
   
-  
+
 
 
