@@ -7,16 +7,13 @@ http://caniuse.com/#search=flex
 https://davidwalsh.name/css-supports
 #### tested in:
 <img src="images/chrome/flex.png" width="500">  
-Chrome  
-<br>
+<p>Chrome</p>  
 
 <img src="images/IE8/flex.png" width="500">  
-IE8  
-<br>
+<p>IE8</p>   
 
 <img src="images/mobile/flex.jpg" width="500">  
-Windows phone (device lab)  
-<br>
+<p>Windows phone (device lab)</p>  
 
 ## 2. viewport units (CSS)
 
