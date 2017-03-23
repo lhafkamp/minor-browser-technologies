@@ -1,57 +1,127 @@
-# 1. flex + @supports
+## 1. flex + @supports
+
+#### sources:
 http://caniuse.com/#search=flex
 https://davidwalsh.name/css-supports
-## tested in
-- chrome
+#### tested in:
+<img src="images/chrome/flex.png">  
+Chrome  
 
-# 2. viewport units
+<img src="images/IE8/flex.png">  
+IE8  
+  
+<img src="images/mobile/flex.jpg">  
+Windows phone (device lab)  
+
+## 2. viewport units
+
+#### sources:
 http://caniuse.com/#search=viewport%20units
 https://github.com/alvarotrigo/fullPage.js/issues/854
 
-## tested in
-- chrome
+#### tested in:
+<img src="images/chrome/vw.png">  
+Chrome  
 
-# 3. svg
+<img src="images/IE8/vpunits.png">  
+IE8  
+  
+<img src="images/mobile/vw.jpg">  
+Windows phone (device lab)  
+
+## 3. svg
+
+#### sources:
 http://caniuse.com/#search=svg
 https://css-tricks.com/svg-fallbacks/
 
-## tested in
-- chrome
+#### tested in:
+<img src="images/chrome/svg.png">  
+Chrome  
 
-# 4. intrinsic sizing
+<img src="images/IE8/svg.png">  
+IE8  
+  
+<img src="images/mobile/svg.jpg">  
+Windows phone (device lab)  
+
+
+## 4. intrinsic sizing
+
+#### sources:
 http://caniuse.com/#search=max-content
 http://stackoverflow.com/questions/22834379/css3-ms-max-content-in-ie11
 
-## tested in
-- chrome
+#### tested in:
+<img src="images/chrome/mincontent.png">  
+Chrome  
 
-# 5. css3colors
+<img src="images/IE8/mincontent.png">  
+IE8  
+  
+<img src="images/mobile/intrin.jpg">  
+Windows phone (device lab)  
+
+## 5. css3colors
+
+#### sources:
 http://html5please.com/
 http://caniuse.com/#search=CSS3%20Colors
 https://github.com/CSSLint/csslint/wiki/Require-fallback-colors
 
-## tested in
-- chrome
+#### tested in:
+<img src="images/chrome/hotpink.png">  
+Chrome  
 
-# 6. details
+<img src="images/IE8/hotpink.png">  
+IE8  
+  
+<img src="images/mobile/pink.jpg">  
+Windows phone (device lab)  
+
+
+## 6. details
+
+#### sources:
 http://caniuse.com/#search=details
 https://html.spec.whatwg.org/multipage/forms.html#the-details-element
 
-## tested in
-- chrome
+#### tested in:
+<img src="images/chrome/summary.png">  
+Chrome  
 
-# 7. Array.from
+<img src="images/IE8/summary.png">  
+IE8  
+  
+<img src="images/mobile/summary.jpg">  
+Windows phone (device lab)  
+
+
+## 7. Array.from
+
+#### sources:
 http://kangax.github.io/compat-table/es6/#test-Array.from
 http://stackoverflow.com/questions/3199588/fastest-way-to-convert-javascript-nodelist-to-array
 
-## tested in
-- chrome
+#### tested in:
+<img src="images/chrome/array.png">  
+Chrome (console)  
 
-# 8. Smooth scrolling
+
+## 8. Smooth scrolling
+
+#### sources:
 https://stackoverflow.com/questions/10063380/javascript-smooth-scroll-without-the-use-of-jquery
 
-## tested in
-- chrome
+#### tested in:
+<img src="images/chrome/">  
+Chrome  
+
+<img src="images/IE8/smooth.png">  
+IE8  
+  
+<img src="images/mobile/smooth.jpg">  
+Windows phone (device lab)  
 
 
 
