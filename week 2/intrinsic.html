@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<style>
+	p {
+		background: red;
+	}
+
+	.fallbackwidth .intrinsic {
+		width: min-content;
+		width: -moz-min-content;
+		width: -webkit-min-content;
+		width: -o-min-content;
+	}
+
+	.fallbackwidth p {
+		width: 100%;
+	}
+
+</style>
+
+<article class="fallbackwidth">
+	<p class="intrinsic">hi</p>
+	<p class="intrinsic">longerhi</p>
+</article>
+
+<script>
+
+</script>	
+</body>
+</html>

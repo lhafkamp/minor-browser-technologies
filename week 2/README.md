@@ -11,9 +11,17 @@ https://github.com/alvarotrigo/fullPage.js/issues/854
 ## tested in
 - chrome
 
-# 3. svg fallback
+# 3. svg
 http://caniuse.com/#search=svg
 https://css-tricks.com/svg-fallbacks/
 
 ## tested in
 - chrome
+
+# 4. intrinsic sizing
+http://caniuse.com/#search=max-content
+http://stackoverflow.com/questions/22834379/css3-ms-max-content-in-ie11
+
+## tested in
+- chrome
+
