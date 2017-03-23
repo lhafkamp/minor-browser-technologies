@@ -33,5 +33,12 @@ https://github.com/CSSLint/csslint/wiki/Require-fallback-colors
 ## tested in
 - chrome
 
+# 6. details
+http://caniuse.com/#search=details
+https://html.spec.whatwg.org/multipage/forms.html#the-details-element
+
+## tested in
+
+
 
 
