@@ -45,16 +45,16 @@ http://caniuse.com/#search=svg
 https://css-tricks.com/svg-fallbacks/
 
 #### tested in:
-<img src="images/chrome/svg.png">  
+<img src="images/chrome/svg.png" width="500">  
 Chrome  
 <br>
 
-<img src="images/IE8/svg.png">  
+<img src="images/IE8/svg.png" width="500">  
 IE8  
 <br>
 
 
-<img src="images/mobile/svg.jpg">  
+<img src="images/mobile/svg.jpg" width="500">  
 Windows phone (device lab)  
 <br>
 
@@ -66,17 +66,17 @@ http://caniuse.com/#search=max-content
 http://stackoverflow.com/questions/22834379/css3-ms-max-content-in-ie11
 
 #### tested in:
-<img src="images/chrome/mincontent.png">  
+<img src="images/chrome/mincontent.png" width="500">  
 Chrome  
 <br>
   
 
-<img src="images/IE8/mincontent.png">  
+<img src="images/IE8/mincontent.png" width="500">  
 IE8  
 <br>
   
 
-<img src="images/mobile/intrin.jpg">  
+<img src="images/mobile/intrin.jpg" width="500">  
 Windows phone (device lab)  
 <br>
   
@@ -89,15 +89,15 @@ http://caniuse.com/#search=CSS3%20Colors
 https://github.com/CSSLint/csslint/wiki/Require-fallback-colors
 
 #### tested in:
-<img src="images/chrome/hotpink.png">  
+<img src="images/chrome/hotpink.png" width="500">  
 Chrome  
 <br>
 
-<img src="images/IE8/hotpink.png">  
+<img src="images/IE8/hotpink.png" width="500">  
 IE8  
 <br>
 
-<img src="images/mobile/pink.jpg">  
+<img src="images/mobile/pink.jpg" width="500">  
 Windows phone (device lab)  
 <br>
 
@@ -108,15 +108,15 @@ http://caniuse.com/#search=details
 https://html.spec.whatwg.org/multipage/forms.html#the-details-element
 
 #### tested in:
-<img src="images/chrome/summary.png">  
+<img src="images/chrome/summary.png" width="500">  
 Chrome  
 <br>
 
-<img src="images/IE8/summary.png">  
+<img src="images/IE8/summary.png" width="500">  
 IE8  
 <br>
 
-<img src="images/mobile/summary.jpg">  
+<img src="images/mobile/summary.jpg" width="500">  
 Windows phone (device lab)  
 <br>
 
@@ -138,15 +138,15 @@ Chrome (console)
 https://stackoverflow.com/questions/10063380/javascript-smooth-scroll-without-the-use-of-jquery
 
 #### tested in:
-<img src="images/chrome/">  
+<img src="images/chrome/smooth.png" width="500">  
 Chrome  
 <br>
 
-<img src="images/IE8/smooth.png">  
+<img src="images/IE8/smooth.png" width="500">  
 IE8  
 <br>
 
-<img src="images/mobile/smooth.jpg">  
+<img src="images/mobile/smooth.jpg" width="500">  
 Windows phone (device lab)  
 <br>
 
