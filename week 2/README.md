@@ -6,15 +6,15 @@
 http://caniuse.com/#search=flex
 https://davidwalsh.name/css-supports
 #### tested in:
-<img src="images/chrome/flex.png" width="400">  
+<img src="images/chrome/flex.png" width="500">  
 Chrome  
 <br>
 
-<img src="images/IE8/flex.png" width="400">  
+<img src="images/IE8/flex.png" width="500">  
 IE8  
 <br>
 
-<img src="images/mobile/flex.jpg" width="400">  
+<img src="images/mobile/flex.jpg" width="500">  
 Windows phone (device lab)  
 <br>
 
@@ -25,15 +25,15 @@ http://caniuse.com/#search=viewport%20units
 https://github.com/alvarotrigo/fullPage.js/issues/854
 
 #### tested in:
-<img src="images/chrome/vw.png" width="400">  
+<img src="images/chrome/vw.png" width="500">  
 Chrome    
 <br>
 
-<img src="images/IE8/vpunits.png" width="400">  
+<img src="images/IE8/vpunits.png" width="500">  
 IE8    
 <br>
 
-<img src="images/mobile/vw.jpg" width="400">  
+<img src="images/mobile/vw.jpg" width="500">  
 Windows phone (device lab)    
 <br>
 
