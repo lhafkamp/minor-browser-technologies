@@ -10,16 +10,17 @@ http://caniuse.com/#search=flex
 https://davidwalsh.name/css-supports
 #### tested in:
 <img src="images/chrome/flex.png" width="500">  
-##### Chrome  
-<p>Flex is used</p>
+
+<p>Chrome</p>  
+_Flex is used_
 
 <img src="images/IE8/flex.png" width="500">  
-##### IE8
-<p>Flex isn't used</p>
+<p>IE8</p>
+_Flex isn't used_
 
 <img src="images/mobile/flex.jpg" width="500">  
-#####Windows phone (device lab)
-<p>Flex is used</p>
+<p>Windows phone (device lab)</p>  
+_Flex is used_
 
 ## 2. viewport units (CSS)
 
