@@ -12,15 +12,15 @@ https://davidwalsh.name/css-supports
 <img src="images/chrome/flex.png" width="500">  
 
 <p>Chrome</p>  
-_Flex is used_
+<p>Flex is used</p>  
 
 <img src="images/IE8/flex.png" width="500">  
 <p>IE8</p>
-_Flex isn't used_
+<p>Flex isn't used</p>  
 
 <img src="images/mobile/flex.jpg" width="500">  
-<p>Windows phone (device lab)</p>  
-_Flex is used_
+<p>Windows phone (device lab)</p>
+<p>Flex is used</p>  
 
 ## 2. viewport units (CSS)
 
