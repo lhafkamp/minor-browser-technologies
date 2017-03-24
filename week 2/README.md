@@ -1,5 +1,7 @@
 # Week 2
 
+Link: <a href="luukhafkamp.nl/bt">luukhafkamp.nl/bt</a>
+
 ## 1. flex + @supports (CSS)
 
 #### description:
