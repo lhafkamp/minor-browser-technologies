@@ -2,18 +2,24 @@
 
 ## 1. flex + @supports (CSS)
 
+#### description:
+Display: flex; doesn't work everywhere. With the @supports tag it will only use flexbox once the browser can actually support it. In this case it renders display: inline-block; once it doesn't.
+
 #### sources:
 http://caniuse.com/#search=flex
 https://davidwalsh.name/css-supports
 #### tested in:
 <img src="images/chrome/flex.png" width="500">  
-<p>Chrome</p>  
+##### Chrome  
+<p>Flex is used</p>
 
 <img src="images/IE8/flex.png" width="500">  
-<p>IE8</p>   
+##### IE8
+<p>Flex isn't used</p>
 
 <img src="images/mobile/flex.jpg" width="500">  
-<p>Windows phone (device lab)</p>  
+#####Windows phone (device lab)
+<p>Flex is used</p>
 
 ## 2. viewport units (CSS)
 
