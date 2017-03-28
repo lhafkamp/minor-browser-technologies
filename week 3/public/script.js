@@ -1,25 +1,21 @@
-const box = document.querySelectorAll('div');
-const move = document.querySelectorAll('img');
-
-function allowDrop(e) {
-  e.preventDefault();
-}
+const box = document.querySelectorAll('.list');
+const images = document.querySelectorAll('img');
+const inputs = document.querySelectorAll('input');
 
 function drag(e) {
-  console.log(e);
-  e.dataTransfer.setData('text', e.target.id);
+	inputs[e.target.id].click();
+	console.log();
+}
+
+function allowDrop(e) {
+	e.preventDefault();
+	console.log('dragging');
 }
 
 function drop(e) {
-  e.preventDefault();
-  const data = e.dataTransfer.getData('text');
-  e.target.appendChild(document.getElementById(data));
-
-  const hoi = document.querySelector('.hoi');
-  hoi.click();
+	inputs.forEach(input => input.click());
 }
 
-box.forEach(b => b.addEventListener('drop', drop));
+images.forEach(m => m.addEventListener('dragstart', drag));
 box.forEach(b => b.addEventListener('dragover', allowDrop));
-
-move.forEach(m => m.addEventListener('dragstart', drag));
+box.forEach(b => b.addEventListener('drop', drop));
