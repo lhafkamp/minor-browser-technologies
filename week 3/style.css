@@ -1,0 +1,16 @@
+body {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.list div {
+	border: 1px solid black;
+	height: 5em;
+	width: 20em;
+	margin-bottom: 1em;
+	margin-right: 4em;
+}
+
+input[type=checkbox]:checked + label {
+  font-size: 2em;
+} 
