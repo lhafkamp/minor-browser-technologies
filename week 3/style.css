@@ -3,6 +3,15 @@ body {
 	flex-wrap: wrap;
 }
 
+.options {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.options div {
+	margin: .5em;
+}
+
 .list div {
 	border: 1px solid black;
 	height: 5em;
@@ -12,5 +21,6 @@ body {
 }
 
 input[type=checkbox]:checked + label {
-  font-size: 2em;
+	font-size: 2em;
+	color: green;
 } 
