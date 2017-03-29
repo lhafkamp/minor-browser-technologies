@@ -16,12 +16,20 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
-const data = [];
+let data = [];
 
 // post form data
 app.post('/', (req, res) => {
 	data.push(req.body.ingredients);
 	res.redirect('/');
+})
+
+// clear data
+app.get('/clear', (req, res) => {
+	data = [];
+	res.render('index', {
+		data: data
+	});
 })
 
 // get form data
