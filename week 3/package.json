@@ -1,0 +1,19 @@
+{
+  "name": "grocery",
+  "version": "1.0.0",
+  "description": "grocery list",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Luuk Hafkamp",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "ejs": "^2.5.6",
+    "express": "^4.15.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<title>Grosery list</title>
+</head>
+<body>
+	<a href="/clear">clear</a>
+	
+	<div class="list">
+		<div>
+			<h1>Grosery List</h1>
+		</div>
+		<% data.forEach(ingredient => { %>
+		<div>
+			<p><%= ingredient %></p>
+		</div>
+		<% }) %>
+    </div>
+	
+	<div class="options">
+    	<form method="post" action="/">
+		  <img id="0" draggable src="http://placehold.it/150x150">
+		  <input class="wow" type="submit" value="bread" name="ingredients">
+
+    	  <img id="1" draggable src="http://placehold.it/150x150">
+		  <input class="wow2" type="submit" value="cheese" name="ingredients">
+
+		  <img id="2" draggable src="http://placehold.it/150x150">
+		  <input class="wow3" type="submit" value="ham" name="ingredients">
+		</form> 
+	</div>
+
+<script src="script.js"></script>
+</body>
+</html>
