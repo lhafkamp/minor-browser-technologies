@@ -4,6 +4,7 @@ html {
 
 body {
 	background: #7C99B6;
+	margin: 0;
 }
 
 .options {
@@ -89,9 +90,30 @@ body {
 	background: #66CDAA;
 }
 
+.succes {
+	background: #66CDAA;
+}
+
+.floating {
+	background: #E5EDEE;
+}
+
 .list ul li {
 	margin-bottom: .5em;
 }
+
+footer p {
+	position: fixed;
+	bottom: 0%;
+	background: #F08080;
+	color: white;
+	margin: 0;
+	width: 25%;
+	border-top-right-radius: 1em;
+	padding: 1.2em;
+	box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.12);
+}
+
 
 @media (max-width: 40em) {
   	.options,
@@ -101,8 +123,17 @@ body {
   		float: none;
 	}
 
+	.options {
+		margin: 1em;
+	}
+
   	.options form div {
   		margin: 0 1.5% 2em;
+  		margin-top: 1em;
   		width: 22%;
+  	}
+
+  	footer {
+  		display: none;
   	}
 }

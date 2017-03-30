@@ -8,7 +8,12 @@ function drag(e) {
 
 function allowDrop(e) {
 	e.preventDefault();
-	console.log('dragging');
+	this.classList.add('floating');
+}
+
+function dontDrop(e) {
+	e.preventDefault();
+	this.classList.remove('floating');
 }
 
 function drop(e) {
@@ -16,6 +21,8 @@ function drop(e) {
 	console.log(e.target);
 	const id = e.dataTransfer.getData('id');
 	inputs[id].click();
+	this.classList.remove('floating');
+	this.classList.add('succes');
 }
 
 document.querySelector('form').addEventListener('submit', function(ev) {
@@ -27,6 +34,15 @@ document.querySelector('form').addEventListener('submit', function(ev) {
 	// ev.preventDefault();
 })
 
+function dragSucces(e) {
+	box.forEach(box => box.classList.add('succes'));
+}
+
+function dragFail(e) {
+	box.forEach(box => box.classList.remove('succes'));
+}
+
 images.forEach(img => img.addEventListener('dragstart', drag));
 box.forEach(b => b.addEventListener('dragover', allowDrop));
+box.forEach(b => b.addEventListener('dragleave', dontDrop));
 box.forEach(b => b.addEventListener('drop', drop));
