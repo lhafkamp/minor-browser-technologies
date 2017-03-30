@@ -1,4 +1,5 @@
-# Grosery list
+# Grocery list
+Assignment to make a grocery list that works on every browser.
 
 Krijn - geen checkbox > submit > server
 
