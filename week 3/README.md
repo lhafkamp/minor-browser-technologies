@@ -10,17 +10,39 @@ The core functionality is adding ingredients to your grocery list. This can be d
 To use the app run `npm install` and then `npm start` to start the server on port `3001`.
 
 ## Compatibility
+
+### Progressive enhancement and fallbacks
+I build this app from a progressive enchancement perspective. The site works fine with only html due a post request created with the submit buttons (which are the ingredients that you can add). If you have a browser that does support drag and drop the drop triggers a click() function on the submit button so you get the same effect but with a better user experience.
+
+If your browser doesn't support drag and drop or 'classList' the message that tells you you can use this functionality will dissapear in order not to confuse the user. This is done with the following feature detection:
+
+`if ('classList' in document.documentElement  || 'draggable' in document.createElement('span')) {
+	footer.classList.remove('hide');
+}`
+
 ### Modern browsers
 [x] Chrome  
 [x] Firefox  
 [x] Safari - no drag and drop  
 
 ### Device lab
-<img src="screens/ipad.jpg" width="150">  
-<img src="screens/samsung.jpg" width="150">  
-<img src="screens/wintab.jpg" width="150">  
-<img src="screens/kindle.jpg" width="150">  
+<img src="screens/ipad.jpg" width="250">  
+iPad
+<img src="screens/samsung.jpg" width="250">  
+Samsung
+<img src="screens/wintab.jpg" width="250">  
+Windows tablet
+<img src="screens/kindle.jpg" width="250">  
+Kindle e-reader
+  
+All the devices that I tested on did not support the drag and drop functionality however they still worked fine with the button fallback.
 
+### IE8
+<img src="screens/windowsfirst.png" width="350">  
+At first the 'Select an item or drag it into the list' message would'nt hide properly because IE8 doesn't support 'classList'. The core functionality did work however.
+
+<img src="screens/windowsres.png" width="350">  
+I did manage to solve this by creating the feature detection stated above.
 
 
 ## Sources
