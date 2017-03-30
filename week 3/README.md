@@ -53,6 +53,7 @@ I did manage to solve this by creating the feature detection stated above.
 
 
 ## Sources
+<a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Feature_detection">https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Feature_detection</a>  
 <a href="https://plainjs.com/javascript/attributes/adding-removing-and-testing-for-classes-9/">http://caniuse.com/</a>  
 <a href="https://plainjs.com/javascript/attributes/adding-removing-and-testing-for-classes-9/">https://plainjs.com/javascript/attributes/adding-removing-and-testing-for-classes-9/</a>  
 <a href="http://diveintohtml5.info/everything.html">http://diveintohtml5.info/everything.html</a>
