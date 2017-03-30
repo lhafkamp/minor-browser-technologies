@@ -20,19 +20,26 @@ If your browser doesn't support drag and drop or 'classList' the message that te
 	footer.classList.remove('hide');  
 }`
 
+Another tiny fallback is done with the cursor style:  
+`cursor: -webkit-grab;`  
+`cursor: -moz-grab;`  
+`cursor: move;`  
+  
+The grab cursor isn't widely supported so it will use the less charming move cursor if the browser doesn't support grab.
+
 ### Modern browsers
 [x] Chrome  
 [x] Firefox  
 [x] Safari - no drag and drop  
 
 ### Device lab
-iPad
+iPad  
 <img src="screens/ipad.jpg" width="250">  
-Samsung
+Samsung  
 <img src="screens/samsung.jpg" width="250">  
-Windows tablet
+Windows tablet  
 <img src="screens/wintab.jpg" width="250">  
-Kindle e-reader
+Kindle e-reader  
 <img src="screens/kindle.jpg" width="250">  
   
 All the devices that I tested on did not support the drag and drop functionality however they still worked fine with the button fallback.
@@ -46,6 +53,6 @@ I did manage to solve this by creating the feature detection stated above.
 
 
 ## Sources
-<a href="https://plainjs.com/javascript/attributes/adding-removing-and-testing-for-classes-9/">http://caniuse.com/</a>
-<a href="https://plainjs.com/javascript/attributes/adding-removing-and-testing-for-classes-9/">https://plainjs.com/javascript/attributes/adding-removing-and-testing-for-classes-9/</a>
+<a href="https://plainjs.com/javascript/attributes/adding-removing-and-testing-for-classes-9/">http://caniuse.com/</a>  
+<a href="https://plainjs.com/javascript/attributes/adding-removing-and-testing-for-classes-9/">https://plainjs.com/javascript/attributes/adding-removing-and-testing-for-classes-9/</a>  
 <a href="http://diveintohtml5.info/everything.html">http://diveintohtml5.info/everything.html</a>
