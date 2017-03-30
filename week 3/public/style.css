@@ -25,8 +25,9 @@ body {
 }
 
 .options img {
+	cursor: -webkit-grab; 
+	cursor: -moz-grab;
 	cursor: move;
-	cursor: -webkit-grab; cursor: -moz-grab;
 	border-top-right-radius: .4em;
 	border-top-left-radius: .4em;
 	background: white;
