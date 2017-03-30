@@ -3,13 +3,23 @@ Assignment to make a grocery list that works on every browser.
 
 ![screenshot](screens/home.png)
 
-## Performance
-
-
+## Core functionality
+The core functionality is adding ingredients to your grocery list. This can be done by drag and dropping the ingredients into the list. Since this won't work in every browser you can also click on the buttons to add them.
 
 ## Build
-
 To use the app run `npm install` and then `npm start` to start the server on port `3001`.
+
+## Compatibility
+### Modern browsers
+[x] Chrome
+[x] Firefox
+[x] Safari - no drag and drop
+
+### Device lab
+![screenshot](screens/ipad.png)
+![screenshot](screens/samsung.png)
+![screenshot](screens/wintab.png)
+![screenshot](screens/kindle.png)
 
 ## Sources
 <a href="https://plainjs.com/javascript/attributes/adding-removing-and-testing-for-classes-9/">http://caniuse.com/</a>
