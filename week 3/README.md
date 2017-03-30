@@ -16,10 +16,10 @@ To use the app run `npm install` and then `npm start` to start the server on por
 [x] Safari - no drag and drop  
 
 ### Device lab
-<img src=screens/ipad.jpg" width="150">  
-<img src=screens/samsung.jpg" width="150">  
-<img src=screens/wintab.jpg" width="150">  
-<img src=screens/kindle.jpg" width="150">  
+<img src="screens/ipad.jpg" width="150">  
+<img src="screens/samsung.jpg" width="150">  
+<img src="screens/wintab.jpg" width="150">  
+<img src="screens/kindle.jpg" width="150">  
 
 
 
