@@ -51,6 +51,9 @@ At first the 'Select an item or drag it into the list' message would'nt hide pro
 <img src="screens/windowsres.png">  
 I did manage to solve this by creating the feature detection stated above.
 
+## Conclusion
+The app works on every browser I tried because of the simple input system. However, right now the page refreshes every time the user adds an ingredient. If I would have had more time I would have used an AJAX request to render it client side so the drop animation would have been smoother. This would also be the most ideal situation for a user case where there are way more ingredients.
+
 
 ## Sources
 <a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Feature_detection">https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Feature_detection</a>  
