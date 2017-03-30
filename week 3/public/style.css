@@ -102,14 +102,13 @@ body {
 	margin-bottom: .5em;
 }
 
-footer p {
+.footer {
 	position: fixed;
 	bottom: 0%;
 	background: #F08080;
 	color: white;
 	margin: 0;
 	width: 25%;
-	border-top-right-radius: 1em;
 	padding: 1.2em;
 	box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.12);
 }
@@ -133,7 +132,7 @@ footer p {
   		width: 22%;
   	}
 
-  	footer {
+  	.footer {
   		display: none;
   	}
 }
