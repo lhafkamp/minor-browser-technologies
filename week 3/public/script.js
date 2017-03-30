@@ -12,10 +12,19 @@ function allowDrop(e) {
 }
 
 function drop(e) {
-	console.log(e);
+	console.log(e.target);
 	const id = e.dataTransfer.getData('id');
 	inputs[id].click();
 }
+
+document.querySelector('form').addEventListener('submit', function(ev) {
+	// Use 'value=".." name="ingredients"'
+	// Submit form with name=value pair, using 'Ajax'
+	// Parse response body
+	// Overwrite list with response body list
+	// Flash the list
+	// ev.preventDefault();
+})
 
 images.forEach(img => img.addEventListener('dragstart', drag));
 box.forEach(b => b.addEventListener('dragover', allowDrop));

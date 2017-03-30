@@ -7,11 +7,33 @@
 	<title>Grosery list</title>
 </head>
 <body>
-	<a href="/clear">clear</a>
 	
+	<div class="options">
+    	<form method="post" action="/">
+    	  	<div>
+			 	<img type="submit" id="0" draggable src="../images/bread.png">
+				<input type="submit" value="bread" name="ingredients">
+			</div>
+
+			<div>
+	    		<img id="1" draggable src="../images/cheese.png">
+				<input type="submit" value="cheese" name="ingredients">
+			</div>
+			<div>
+		  		<img id="2" draggable src="../images/ham.png">
+		  		<input type="submit" value="ham" name="ingredients">
+			</div>
+			<div>
+		  		<img id="3" draggable src="../images/curry.png">
+		  		<input type="submit" value="curry" name="ingredients">
+			</div>
+		</form> 
+	</div>
+
 	<div class="list">
 		<div>
 			<h1>Grosery List</h1>
+			<a href="/clear">clear</a>
 		</div>
 		<% data.forEach(ingredient => { %>
 		<div>
@@ -19,19 +41,6 @@
 		</div>
 		<% }) %>
     </div>
-	
-	<div class="options">
-    	<form method="post" action="/">
-		  <img id="0" draggable src="http://placehold.it/150x150">
-		  <input class="wow" type="submit" value="bread" name="ingredients">
-
-    	  <img id="1" draggable src="http://placehold.it/150x150">
-		  <input class="wow2" type="submit" value="cheese" name="ingredients">
-
-		  <img id="2" draggable src="http://placehold.it/150x150">
-		  <input class="wow3" type="submit" value="ham" name="ingredients">
-		</form> 
-	</div>
 
 <script src="script.js"></script>
 </body>
