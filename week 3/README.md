@@ -16,10 +16,10 @@ To use the app run `npm install` and then `npm start` to start the server on por
 [x] Safari - no drag and drop
 
 ### Device lab
-![screenshot](screens/ipad.png)
-![screenshot](screens/samsung.png)
-![screenshot](screens/wintab.png)
-![screenshot](screens/kindle.png)
+![screenshot](screens/ipad.jpg)
+![screenshot](screens/samsung.jpg)
+![screenshot](screens/wintab.jpg)
+![screenshot](screens/kindle.jpg)
 
 ## Sources
 <a href="https://plainjs.com/javascript/attributes/adding-removing-and-testing-for-classes-9/">http://caniuse.com/</a>
