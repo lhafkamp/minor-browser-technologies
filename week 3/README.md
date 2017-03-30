@@ -17,7 +17,7 @@ I build this app from a progressive enchancement perspective. The site works fin
 If your browser doesn't support drag and drop or 'classList' the message that tells you you can use this functionality will dissapear in order not to confuse the user. This is done with the following feature detection:
 
 `if ('classList' in document.documentElement  || 'draggable' in document.createElement('span')) {
-	footer.classList.remove('hide');
+	footer.classList.remove('hide');  
 }`
 
 ### Modern browsers
@@ -26,40 +26,26 @@ If your browser doesn't support drag and drop or 'classList' the message that te
 [x] Safari - no drag and drop  
 
 ### Device lab
-<img src="screens/ipad.jpg" width="250">  
 iPad
-<img src="screens/samsung.jpg" width="250">  
+<img src="screens/ipad.jpg" width="250">  
 Samsung
-<img src="screens/wintab.jpg" width="250">  
+<img src="screens/samsung.jpg" width="250">  
 Windows tablet
-<img src="screens/kindle.jpg" width="250">  
+<img src="screens/wintab.jpg" width="250">  
 Kindle e-reader
+<img src="screens/kindle.jpg" width="250">  
   
 All the devices that I tested on did not support the drag and drop functionality however they still worked fine with the button fallback.
 
 ### IE8
-<img src="screens/windowsfirst.png" width="350">  
+<img src="screens/windowsfirst.png">  
 At first the 'Select an item or drag it into the list' message would'nt hide properly because IE8 doesn't support 'classList'. The core functionality did work however.
 
-<img src="screens/windowsres.png" width="350">  
+<img src="screens/windowsres.png">  
 I did manage to solve this by creating the feature detection stated above.
 
 
 ## Sources
 <a href="https://plainjs.com/javascript/attributes/adding-removing-and-testing-for-classes-9/">http://caniuse.com/</a>
-
 <a href="https://plainjs.com/javascript/attributes/adding-removing-and-testing-for-classes-9/">https://plainjs.com/javascript/attributes/adding-removing-and-testing-for-classes-9/</a>
-
 <a href="http://diveintohtml5.info/everything.html">http://diveintohtml5.info/everything.html</a>
-
-Krijn - geen checkbox > submit > server
-
-firefox - preventdefault want inzoom
-safari - werkt niet dus knopjes
-
-classList > className
-
-footer feature detection
-
-eventlisteners/queryselectors/
-classList/forEach/dragndrop < doesn't work
