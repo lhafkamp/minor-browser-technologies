@@ -1,15 +1,12 @@
-document.querySelector('form').addEventListener('submit', function(ev) {
-	// Use 'value=".." name="ingredients"'
-	// Submit form with name=value pair, using 'Ajax'
-	// Parse response body
-	// Overwrite list with response body list
-	// Flash the list
-	// ev.preventDefault();
-})
-
 var box = document.querySelectorAll('.list');
 var images = document.querySelectorAll('img');
 var inputs = document.querySelectorAll('input');
+var footer = document.querySelector('.footer');
+
+// feature detection
+if ('classList' in document.documentElement  || 'draggable' in document.createElement('span')) {
+	footer.classList.remove('hide');
+}
 
 function drag(e) {
 	e.dataTransfer.setData('id', e.target.id);
@@ -27,7 +24,6 @@ function dontDrop(e) {
 
 function drop(e) {
 	e.preventDefault();
-	console.log(e.target);
 	var id = e.dataTransfer.getData('id');
 	inputs[id].click();
 	this.classList.remove('floating');

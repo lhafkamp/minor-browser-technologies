@@ -98,6 +98,10 @@ body {
 	background: #E5EDEE;
 }
 
+.hide {
+	visibility: hidden;
+}
+
 .list ul li {
 	margin-bottom: .5em;
 }
@@ -112,7 +116,6 @@ body {
 	padding: 1.2em;
 	box-shadow: 3px 4px 5px 0px rgba(0,0,0,0.12);
 }
-
 
 @media (max-width: 40em) {
   	.options,
