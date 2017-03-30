@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="initial-scale=1, width=device-width">
 	<link rel="stylesheet" href="style.css">
-	<title>Grosery list</title>
+	<title>Grocery list</title>
 </head>
 <body>
 	
@@ -31,15 +31,13 @@
 	</div>
 
 	<div class="list">
-		<div>
-			<h1>Grosery List</h1>
-			<a href="/clear">clear</a>
-		</div>
+		<a href="/clear">clear</a>
+		<h1>Grocery List</h1>
+		<ul>
 		<% data.forEach(ingredient => { %>
-		<div>
-			<p><%= ingredient %></p>
-		</div>
+			<li><%= ingredient %></li>
 		<% }) %>
+		</ul>
     </div>
 
 <script src="script.js"></script>

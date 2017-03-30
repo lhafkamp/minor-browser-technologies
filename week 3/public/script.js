@@ -12,6 +12,7 @@ function allowDrop(e) {
 }
 
 function drop(e) {
+	e.preventDefault();
 	console.log(e.target);
 	const id = e.dataTransfer.getData('id');
 	inputs[id].click();
