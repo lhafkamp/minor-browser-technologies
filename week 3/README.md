@@ -78,4 +78,5 @@ The app works on every browser I tried because of the simple input system. Howev
 <a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Feature_detection">https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Feature_detection</a>  
 <a href="https://plainjs.com/javascript/attributes/adding-removing-and-testing-for-classes-9/">http://caniuse.com/</a>  
 <a href="https://plainjs.com/javascript/attributes/adding-removing-and-testing-for-classes-9/">https://plainjs.com/javascript/attributes/adding-removing-and-testing-for-classes-9/</a>  
-<a href="http://diveintohtml5.info/everything.html">http://diveintohtml5.info/everything.html</a>
+<a href="http://diveintohtml5.info/everything.html">http://diveintohtml5.info/everything.html</a>  
+<a href='https://michelf.ca/projects/sim-daltonism/'>https://michelf.ca/projects/sim-daltonism/</a>
