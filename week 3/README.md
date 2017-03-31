@@ -8,6 +8,13 @@ Assignment to make a grocery list that works on every browser.
 
 The core functionality is adding ingredients to your grocery list. This can be done by drag and dropping the ingredients into the list. Since this won't work in every browser you can also click on the buttons to add them.
 
+## Accessibility
+I tested my application with <a href='https://michelf.ca/projects/sim-daltonism/'>Sim Daltonism</a> to check if my application was usable for color blind users.
+
+<img src="screens/sim.png" width="450">
+
+The colors aren't the prettiest but they remain visible.
+
 ## Build
 To use the app run:
 ```bash
