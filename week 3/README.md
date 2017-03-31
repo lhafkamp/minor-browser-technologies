@@ -7,7 +7,15 @@ Assignment to make a grocery list that works on every browser.
 The core functionality is adding ingredients to your grocery list. This can be done by drag and dropping the ingredients into the list. Since this won't work in every browser you can also click on the buttons to add them.
 
 ## Build
-To use the app run `npm install` and then `npm start` to start the server on port `3001`.
+To use the app run:
+```bash
+npm install
+```
+And then:
+```bash
+npm start
+```
+To start the server on port `3001`.
 
 ## Compatibility
 
@@ -16,9 +24,11 @@ I build this app from a progressive enchancement perspective. The site works fin
 
 If your browser doesn't support drag and drop or 'classList' the message that tells you you can use this functionality will dissapear in order not to confuse the user. This is done with the following feature detection:
 
-`if ('classList' in document.documentElement  || 'draggable' in document.createElement('span')) {
+```js
+if ('classList' in document.documentElement  || 'draggable' in document.createElement('span')) {
 	footer.classList.remove('hide');  
-}`
+}
+```
 
 Another tiny fallback is done with the cursor style:  
 `cursor: -webkit-grab;`  
