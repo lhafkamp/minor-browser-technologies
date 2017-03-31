@@ -4,6 +4,8 @@ Assignment to make a grocery list that works on every browser.
 ![screenshot](screens/home.png)
 
 ## Core functionality
+<img src="screens/drag.png" width="350"><img src="screens/drop.png" width="350">  
+
 The core functionality is adding ingredients to your grocery list. This can be done by drag and dropping the ingredients into the list. Since this won't work in every browser you can also click on the buttons to add them.
 
 ## Build
